@@ -1,0 +1,154 @@
+@font-face {
+    font-family: "FuturaPTBold";
+    src: url("../Portfolio 02/font/FuturaPTBold.otf")
+   }
+   
+   @font-face {
+       font-family: "FuturaPTBook";
+       src: url("../Portfolio 02/font/FuturaPTBook.otf")
+   } 
+   
+   @font-face {
+       font-family: "FuturaPTBookOblique";
+       src: url("../Portfolio 02/font/FuturaPTBookOblique.otf")
+   } 
+header{
+   background-color: #F3F3F5;
+   background-position: top;
+   background-size: cover;
+   min-height: 16vh;
+   width: 100vw;
+   object-fit: contain;   
+   }
+
+body{
+    background-color: #F3F3F5;
+}
+
+.project-img img {
+   width: 100%;
+}
+
+nav{
+   display: flex;
+   justify-content: space-around;
+   background-color: #F3F3F5;
+   padding-top: 16px;
+   padding-bottom: 16px;
+   align-items: center;
+}
+
+.LinkedIn{
+   padding: 16px;
+}
+
+.Behance{
+   padding: 16px;
+}
+
+nav a{
+
+   text-decoration: none;
+   color: #000000;
+   font-family: FuturaPTBook;
+   font-size: 170%;
+   padding: 16px;
+}
+
+.logo{
+width: 140px;
+height: auto;
+}
+
+main{
+    width: 80%;
+    background-color: black;
+    margin: auto;
+    padding: 8px;
+
+}
+.title{
+    background: linear-gradient(262.06deg, #4C96FF 60.88%, #00FFD1 103.81%);
+    border-radius: 30px;
+}
+
+h1{
+    font-family: "FuturaPTBold";
+    color: white;
+    font-size: 48px;
+    width: 504px;
+    line-height: 64px;
+    padding-top: 80px;
+    padding-left: 190px;
+    padding-bottom: 80px;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+}
+
+.project{
+    display: flex;
+    border-radius: 24px;
+    width:100%;
+    gap:8px;
+    margin-top: 8px;
+}
+
+.projects img {
+    width: 50%;
+    border-radius: 24px;
+}
+
+.content-project-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #F3F3F5;
+    border-radius: 24px;
+    width:100%
+}
+
+h4{
+    font-family: "FuturaPTBold";
+    padding-left: 40px;
+    padding-top: 50px;
+    font-size: 32px;
+}
+.projects p{
+    font-family: "FuturaPTBook";
+    font-size: 24px;
+    padding-left: 40px;
+    padding-top: 24px;
+}
+
+.project a{
+        padding: 16px 24px;
+        font-size: 20px;
+        width: 125px;
+        margin-left: 40px;
+        margin-top: 40px;
+        font-family: "FuturaPTBold";
+        border-radius: 100px;
+        text-decoration: none;
+        color: white;
+        background: linear-gradient(262.06deg, #4C96FF 60.88%, #00FFD1 103.81%);
+    
+}
+
+.footer{
+    background: #F3F3F5;
+    border-radius: 24px;
+    text-align: center;
+    margin-top: 8px;
+}
+.footer p{
+    font-family: "FuturaPTBold";
+    font-size: 24px;
+    padding-top: 32px;
+
+}
+.linkedin-footer{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
