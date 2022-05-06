@@ -1,0 +1,225 @@
+
+ @font-face {
+     font-family: "FuturaPTBold";
+     src: url("font/FuturaPTBold.otf")
+    }
+    
+    @font-face {
+        font-family: "FuturaPTBook";
+        src: url("font/FuturaPTBook.otf")
+    } 
+    
+    @font-face {
+        font-family: "FuturaPTBookOblique";
+        src: url("font/FuturaPTBookOblique.otf")
+    } 
+header{
+    background-color: #F3F3F5;
+    background-position: top;
+    background-size: cover;
+    min-height: 16vh;
+    width: 100vw;
+    object-fit: contain;   
+    }
+
+.project-img img {
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #F3F3F5;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    align-items: center;
+    width: 98%;
+}
+
+.LinkedIn{
+    padding: 16px;
+}
+
+.Behance{
+    padding: 16px;
+}
+
+nav a{
+
+    text-decoration: none;
+    color: #000000;
+    font-family: FuturaPTBook;
+    font-size: 170%;
+    padding: 16px;
+}
+
+.logo{
+width: 140px;
+height: auto;
+}
+
+html{
+    background-color: #F3F3F5;
+}
+
+.general{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 80%;
+    background-color: #000000;
+}
+
+.perfil{
+    height: 392px;
+    object-fit: cover;
+}
+
+.section2-container {
+    display: flex;
+    background-color: #000000;
+    width: 100%;
+}
+
+
+.introText p{
+    font-family: FuturaPTBold;
+    font-size: 26px
+}
+
+.intro{
+    border-width: 8px black;
+    background: #F3F3F5;
+    border-radius: 24px;
+    border: 8px solid #000000;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 98.5%;
+    margin: 0 auto;
+    position: relative;
+
+}
+.introText{
+  /*width: 50%;*/
+  max-width: 742px;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.introText p{
+    margin: 14px;
+}
+
+.perfil{
+    width: 130%;
+}
+.introText a{
+    padding: 12px 30px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    width: 25%;
+    font-size: 20px;
+    font-family: "FuturaPTBold";
+    border-radius: 100px;
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(262.06deg, #4C96FF 60.88%, #00FFD1 103.81%);
+
+}
+
+.hijo{
+    border-radius: 24px;
+    border: 8px solid #000000;
+    background-color: white;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+.hijo img{
+    width:100px;
+}
+
+.hijo h3{
+    font-family: "FuturaPTBold";
+    margin-bottom: 16px;
+    margin-top: 24px;
+    width: 40%;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 40px;
+}
+
+.hijo a{
+    font-family: "FuturaPTBook";
+    text-align: left;
+    padding-left: 16px;
+}
+
+.hijo p{
+    font-family: "FuturaPTBookOblique";
+    text-align: left;
+    padding-left: 16px;
+}
+
+.title_ux{
+    width: 40%;
+    text-align: left;
+    padding-left: 16px;
+    font-size: 40px;
+    
+}
+
+.UX{
+    text-align: left;
+    padding-left: 16px;
+}
+
+.meta{
+    position: absolute;
+    top: 50%;
+    left: 70%;
+}
+
+.avion{
+    position: absolute;
+    top: 90px;
+    left: 275px;
+    width: 50vw;
+    object-fit: fill;
+}
+.cine{
+    position: absolute;
+    top: 90px;
+    left: 275px;
+    width: 50vw;
+    object-fit: fill;
+}
+
+.hijo img {
+    width: 164px;
+    height: 164px;
+}
+
+
+.footer{
+    background: #F3F3F5;
+    border-radius: 24px;
+    border: 8px solid #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width:98.5%;
+    margin: 0 auto;
+}
+p{
+    font-family: FuturaPTBold;
+
+}
+h3{
+    font-family: FuturaPTBold;
+    font-size: 30px
+}
